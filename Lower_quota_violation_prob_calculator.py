@@ -8,7 +8,7 @@ def divisor_funct (X):
      #return X+1 #Jefferson's
      #return (2*X*(X+1))/(2*X +1) #Dean's
 
-#Picking M (Do not pick M=3 for Adams. The probability at M=3 for Adams can instead be computed manually as 1/3)
+#Picking M (Do not pick M=3 if d(0)=0, this case can instead be calculated by hand to be 1/3)
 M=10
 
 #Defining vertices:
@@ -63,4 +63,5 @@ for i in range (0,round(np.ceil((M/2)))):
           Top=round(np.floor( -(2*i)+M-0.5   ))
      for j in range (0, Top+1):
           TotalArea=TotalArea+Areafunc(i,j)
+
 print( "Theoretical Prob is:",(6/(M*M))*TotalArea)
