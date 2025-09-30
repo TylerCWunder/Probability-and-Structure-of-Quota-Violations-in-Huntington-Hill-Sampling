@@ -9,7 +9,7 @@ def divisor_funct (X):
      #return np.sqrt(X*(X+1)) #Huntington-Hill
      #return X #Adams
      return X+1 #Jeffersons
-     #return (2*X*(X+1))/(2*X +1) #Adams
+     #return (2*X*(X+1))/(2*X +1) #Dean's
 
 #Random Quota Function
 def randq_1q_2 (m):
@@ -94,3 +94,4 @@ err = 1.96*(np.sqrt( (Prob*(1-Prob))/(trials)   ))
 
 print("Sample probability is", Prob)
 print("Confidence interval is:", "(", Prob-err, ",", Prob+err, ")")
+
