@@ -1,0 +1,1 @@
+This is a collection of python code used in Quantifying the Balinski-Young Theorem: Structure and Probability of Quota Violations in Divisor Methods for Three States by Tyler C. Wunder and Joseph W. Cutrone. 
